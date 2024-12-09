@@ -43,7 +43,7 @@ export default function Home() {
               </li>
             </ul>
             <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
+              src="https://cdn.prod.website-files.com/60a36e8b1bb8de262d076ecf/62019e6834c811e8b87b97fe_ECRANS-STYLISES_ECRAN%20fid%C3%A9lit%C3%A9%20(1)-p-3200.jpeg"
               alt="hero template"
               width={500}
               height={500}
@@ -77,7 +77,7 @@ export default function Home() {
               <li>⏱️ Amélioration des temps de réponses</li>
             </ul>
             <Image
-              src="https://assets.aceternity.com/features-section.png"
+              src="https://cdn.prod.website-files.com/60a36e8b1bb8de262d076ecf/62019e6834c811e8b87b97fe_ECRANS-STYLISES_ECRAN%20fid%C3%A9lit%C3%A9%20(1)-p-3200.jpeg"
               alt="hero template"
               width={500}
               height={500}
@@ -100,7 +100,7 @@ export default function Home() {
               </li>
             </ul>
             <Image
-              src="https://assets.aceternity.com/features-section.png"
+              src="https://cdn.prod.website-files.com/60a36e8b1bb8de262d076ecf/61f86adcfe6ae67dadfa9c5c_ECRANS-STYLISES_ECRAN%20Caisse.svg"
               alt="hero template"
               width={500}
               height={500}
@@ -150,7 +150,7 @@ export default function Home() {
               </li>
             </ul>
             <Image
-              src="https://assets.aceternity.com/features-section.png"
+              src="https://cdn.prod.website-files.com/60a36e8b1bb8de262d076ecf/61f8718603f8fa0b5c727f7b_611fce2f69ccf005f2e781fa_ECRANS-STYLISES_ECRAN%20Page%20Support%20%20(1)%20-%20actualise%CC%81%20(1)%20(1)-p-3200.jpeg"
               alt="hero template"
               width={500}
               height={500}
