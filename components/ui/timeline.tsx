@@ -1,10 +1,8 @@
 "use client";
-import {
-  useScroll,
-  useTransform,
-  motion,
-} from "framer-motion";
+import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+
+import logo_zelty from "../../app/zelty-logo.png";
 
 interface TimelineEntry {
   title: string;
@@ -41,7 +39,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           Zelty
         </h1>
         <h2 className="text-neutral-700 dark:text-neutral-300 font-bold text-xl max-w-sm">
-          2025 Product Review
+          Zelty Review 2024
         </h2>
       </div>
 
