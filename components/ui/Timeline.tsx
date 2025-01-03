@@ -2,8 +2,6 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 
-import logo_zelty from "../../app/zelty-logo.png";
-
 interface TimelineEntry {
   title: string;
   content: React.ReactNode;
