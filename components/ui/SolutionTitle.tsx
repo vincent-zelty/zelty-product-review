@@ -1,3 +1,3 @@
 export const SolutionTitle = ({ children }: { children: string }) => {
-  return <h3 className="font-bold text-2xl">{children}</h3>;
+  return <h3 className="font-bold text-4xl sm:text-6xl">{children}</h3>;
 };

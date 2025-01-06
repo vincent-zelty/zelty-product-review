@@ -1,6 +1,8 @@
 "use client";
 import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+import Image from "next/image";
+import header from "../../app/header.png";
 
 interface TimelineEntry {
   title: string;
@@ -15,7 +17,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   useEffect(() => {
     if (ref.current) {
       const rect = ref.current.getBoundingClientRect();
-      setHeight(rect.height);
+      setHeight(rect.height + 426);
     }
   }, [ref]);
 
@@ -29,19 +31,11 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
+      className="w-full font-sans"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h1 className="text-7xl mb-2 text-black font-bold dark:text-white max-w-4xl">
-          Zelty
-        </h1>
-        <h2 className="text-neutral-700 dark:text-neutral-300 font-bold text-xl max-w-sm">
-          Zelty Review 2024
-        </h2>
-      </div>
-
-      <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
+      <Image src={header} alt="Zelty Rewind 2024" width="100%" />
+      <div ref={ref} className="relative max-w-7xl mx-auto mt-8 pr-8 sm:mt-16">
         {data.map((item, index) => (
           <div key={index} className="flex justify-start md:gap-10">
             <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">

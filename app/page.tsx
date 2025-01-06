@@ -7,25 +7,25 @@ import { MonthContainer } from "@/components/ui/MonthContainer";
 import { SolutionList } from "@/components/ui/SolutionList";
 import { SolutionListItem } from "@/components/ui/SolutionListItem";
 
-import img_jan_01 from "./images/pause3.png";
-import img_jan_02 from "./images/yavin.png";
-import img_feb_01 from "./images/oi.png";
-import img_mar_01 from "./images/ao2.png";
-import img_mar_02 from "./images/oii.png";
-import img_mar_03 from "./images/ouiu.png";
-import img_mar_04 from "./images/aaa.png";
-import img_apr_01 from "./images/ud.png";
-import img_may_01 from "./images/ou.png";
-import img_jul_01 from "./images/fisc2.png";
-import img_jul_02 from "./images/ce3.png";
-import img_sep_01 from "./images/image.png";
-import img_oct_01 from "./images/menu.png";
-import img_oct_02 from "./images/se.png";
-import img_nov_01 from "./images/liv.png";
-import img_nov_02 from "./images/import.png";
-import img_dec_01 from "./images/supp2.png";
-import img_dec_02 from "./images/ti2.png";
-import img_dec_03 from "./images/co.png";
+import img_jan_01 from "./images/janvier.png";
+import img_jan_02 from "./images/janvier 2.png";
+import img_feb_01 from "./images/Fevrier.png";
+import img_mar_01 from "./images/Mars.png";
+import img_mar_02 from "./images/Mars2.png";
+import img_mar_03 from "./images/Mars3.png";
+import img_mar_04 from "./images/mars 4.png";
+import img_apr_01 from "./images/Avril.png";
+import img_may_01 from "./images/mai.png";
+import img_jul_01 from "./images/juillet.png";
+import img_jul_02 from "./images/juillet 2.png";
+import img_sep_01 from "./images/septembre.png";
+import img_oct_01 from "./images/octobre.png";
+import img_oct_02 from "./images/octobre2.png";
+import img_nov_01 from "./images/novembre.png";
+import img_nov_02 from "./images/novembre2.png";
+import img_dec_01 from "./images/decembre.png";
+import img_dec_02 from "./images/decembre2.png";
+import img_dec_03 from "./images/decembre3.png";
 
 export default function Home() {
   const data = [
