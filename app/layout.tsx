@@ -15,8 +15,8 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Zelty Rewind 2024",
-  description: "Un regard en arrière vers nos évoltions produit de l'année 2024",
-  
+  description: "Découvrez les réalisations et les nouveautés produits Zelty de l'année 2024",
+
 };
 
 export default function RootLayout({
