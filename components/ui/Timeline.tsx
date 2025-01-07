@@ -34,7 +34,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       className="w-full font-sans"
       ref={containerRef}
     >
-      <Image src={header} alt="Zelty Rewind 2024" width={0} className="mb-8 sm:mb-16" />
+      <Image src={header} alt="Zelty Rewind 2024" width={0} priority className="mb-8 sm:mb-16" />
       <div ref={ref} className="relative max-w-7xl mx-auto pr-8">
         {data.map((item, index) => (
           <div key={index} className="flex justify-start md:gap-10">
