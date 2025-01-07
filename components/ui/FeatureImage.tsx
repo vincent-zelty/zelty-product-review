@@ -4,9 +4,23 @@ import Image from "next/image";
 export const FeatureImage = ({
   children,
   src,
+  priority,
 }: {
   children?: string;
   src: string | StaticImport;
+  priority?: boolean;
 }) => {
-  return <Image src={src} alt={children as string} width={500} height={500} className="mt-4" />;
+  return (
+    <Image
+      src={src}
+      alt={children as string}
+      sizes="80vw"
+      style={{
+        width: "80%",
+        height: "auto",
+      }}
+      priority={priority}
+      className="mt-4"
+    />
+  );
 };

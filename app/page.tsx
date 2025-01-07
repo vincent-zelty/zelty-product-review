@@ -21,7 +21,7 @@ import img_jul_01 from "./images/juillet.png";
 import img_jul_02 from "./images/juillet 2.png";
 import img_sep_01 from "./images/septembre.png";
 import img_oct_01 from "./images/octobre.png";
-import img_oct_02 from "./images/octobre2.png";
+import img_oct_02 from "./images/septembre-1.png";
 import img_nov_01 from "./images/novembre.png";
 import img_nov_02 from "./images/novembre2.png";
 import img_dec_01 from "./images/decembre.png";
@@ -48,7 +48,7 @@ export default function Home() {
                   restaurant n’arrive plus à suivre la cadence durant un service
                   par exemple.
                 </FeatureDescription>
-                <FeatureImage src={img_jan_01}>
+                <FeatureImage src={img_jan_01} priority>
                   Mise en pause des partenaires de livraison sur Zelty
                 </FeatureImage>
               </SolutionListItem>
@@ -62,7 +62,7 @@ export default function Home() {
                   partie spécifique de la note au moment de payer avec sa carte
                   bancaire.
                 </FeatureDescription>
-                <FeatureImage src={img_jan_02}>
+                <FeatureImage src={img_jan_02} priority>
                   Gestion des pourboires avec les TPE Yavin
                 </FeatureImage>
               </SolutionListItem>
@@ -88,7 +88,7 @@ export default function Home() {
                   non l’impression automatique du ticket de caisse d’une
                   commande dès que celle-ci est clôturée.
                 </FeatureDescription>
-                <FeatureImage src={img_feb_01}>
+                <FeatureImage src={img_feb_01} priority>
                   Pouvoir imprimer automatiquement les tickets de caisse en
                   fonction des modes de consommation
                 </FeatureImage>
