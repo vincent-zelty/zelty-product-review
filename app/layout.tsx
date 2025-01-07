@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Zelty Rewind 2024",
   description:
     "Découvrez les réalisations et les nouveautés produits Zelty de l'année 2024",
-  metadataBase: new URL(`https://${headers().get("host")}`),
+  metadataBase: new URL(`https://zelty-review-2024.netlify.app`),
 };
 
 export default function RootLayout({
