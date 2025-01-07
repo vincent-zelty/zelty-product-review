@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { headers } from 'next/headers'
 import localFont from "next/font/local";
 import "./globals.css";
 
