@@ -39,31 +39,32 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  ⏸️ Mise en pause des partenaires de livraison sur Zelty
-                  Delivery via le mode occupé
+                  ⏸️ Mode Occupé : Prenez le contrôle de vos commandes avec la
+                  mise en pause des partenaires de livraison sur Zelty Delivery
                 </FeatureTitle>
                 <FeatureDescription>
-                  Un restaurateur peut mettre en pause ses plateformes
-                  partenaires depuis la caisse. Cela peut être utile lorsqu’un
-                  restaurant n’arrive plus à suivre la cadence durant un service
-                  par exemple.
+                  Gagnez en sérénité pendant vos services : mettez en pause vos
+                  plateformes partenaires directement depuis votre caisse en un
+                  clic, et reprenez le contrôle de votre rythme en période de
+                  forte affluence.
                 </FeatureDescription>
                 <FeatureImage src={img_jan_01} priority>
-                  Mise en pause des partenaires de livraison sur Zelty
+                  Mode Occupé : Prenez le contrôle de vos commandes avec la mise
+                  en pause des partenaires de livraison sur Zelty Delivery
                 </FeatureImage>
               </SolutionListItem>
               <SolutionListItem>
                 <FeatureTitle>
-                  💳 Gestion des pourboires avec les TPE Yavin
+                  💳 Boostez vos pourboires et modernisez vos paiements
                 </FeatureTitle>
                 <FeatureDescription>
-                  Les TPE Yavin se distinguent en offrant aux clients finaux la
-                  possibilité de laisser un pourboire sur la note ou sur une
-                  partie spécifique de la note au moment de payer avec sa carte
-                  bancaire.
+                  Avec les TPE Yavin, vos clients peuvent exprimer leur
+                  satisfaction en laissant un pourboire directement depuis le
+                  TPE, sur la totalité ou une partie de leur note, en toute
+                  simplicité.
                 </FeatureDescription>
                 <FeatureImage src={img_jan_02} priority>
-                  Gestion des pourboires avec les TPE Yavin
+                  Boostez vos pourboires et modernisez vos paiements
                 </FeatureImage>
               </SolutionListItem>
             </SolutionList>
@@ -80,17 +81,17 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  🖨️ Pouvoir imprimer automatiquement les tickets de caisse en
-                  fonction des modes de consommation
+                  🖨️ Simplifiez vos opérations avec l’impression automatique
                 </FeatureTitle>
                 <FeatureDescription>
-                  Nous avons une option dans la caisse permettant d’activer ou
-                  non l’impression automatique du ticket de caisse d’une
-                  commande dès que celle-ci est clôturée.
+                  Personnalisez l’impression des tickets de caisse selon vos
+                  besoins, grâce à une option qui déclenche automatiquement
+                  l’impression à la clôture des commandes. Un gain de temps pour
+                  vous et une meilleure expérience pour vos clients. Le tout
+                  personnalisable en fonction du mode de consommation.
                 </FeatureDescription>
                 <FeatureImage src={img_feb_01} priority>
-                  Pouvoir imprimer automatiquement les tickets de caisse en
-                  fonction des modes de consommation
+                  Simplifiez vos opérations avec l’impression automatique
                 </FeatureImage>
               </SolutionListItem>
             </SolutionList>
@@ -107,40 +108,43 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  🔔 Affichage d’une alerte permettant de pousser les
-                  utilisateurs à faire leurs mises à jour
+                  🔔 Restez à jour avec des alertes personnalisées
                 </FeatureTitle>
                 <FeatureDescription>
-                  Nous avons ajouté une nouvelle fonctionnalité de notification
-                  destinée à informer le restaurateur de divers aspects liés à
-                  sa caisse.
+                  Une nouvelle notification vous informe directement sur votre
+                  caisse des mises à jour importantes et des actions à
+                  entreprendre pour garantir une performance optimale de votre
+                  système.
                 </FeatureDescription>
                 <FeatureImage src={img_mar_01}>
-                  Affichage d’une alerte permettant de pousser les utilisateurs
-                  à faire leurs mises à jour
+                  Restez à jour avec des alertes personnalisées
                 </FeatureImage>
               </SolutionListItem>
               <SolutionListItem>
                 <FeatureTitle>
-                  📷 Identification d’un client par QR code sur la caisse
+                  📷 Simplifiez l'identification client avec le QR code
                 </FeatureTitle>
                 <FeatureDescription>
-                  Un QR code contenant un numéro de téléphone peut être scanné
-                  par un restaurateur pour identifier le client à une fiche
-                  client existante ou ouvrir une nouvelle fiche client
+                  Scannez un QR code contenant un numéro de téléphone pour
+                  accéder instantanément à une fiche client existante ou en
+                  créer une nouvelle. Offrez une expérience rapide et
+                  personnalisée à vos clients !
                 </FeatureDescription>
                 <FeatureImage src={img_mar_02}>
-                  Identification d’un client par QR code sur la caisse
+                  Simplifiez l'identification client avec le QR code
                 </FeatureImage>
               </SolutionListItem>
               <SolutionListItem>
-                <FeatureTitle>💳 Ajout des TPE Belorder</FeatureTitle>
+                <FeatureTitle>
+                  💳 Optimisez vos paiements avec les TPE Belorder
+                </FeatureTitle>
                 <FeatureDescription>
-                  Nous avons ajouté un nouveau type de TPE a connecter à la
-                  caisse, les TPE Belorder.
+                  Nous avons intégré les TPE Belorder à notre système, offrant
+                  ainsi une nouvelle option de paiement fiable et rapide,
+                  directement connectée à votre caisse.
                 </FeatureDescription>
                 <FeatureImage src={img_mar_04}>
-                  Ajout des TPE Belorder
+                  Optimisez vos paiements avec les TPE Belorder
                 </FeatureImage>
               </SolutionListItem>
             </SolutionList>
@@ -150,13 +154,12 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  🧑🏻‍🍳 Nos partenaires peuvent envoyer en production un produit
-                  d’une commande
+                  🧑🏻‍🍳 Facilitez la gestion des commandes en cuisine
                 </FeatureTitle>
                 <FeatureDescription>
-                  Nos partenaires peuvent maintenant envoyer en production en
-                  cuisine n’importe quel item d’une commande à partir de l’API
-                  Publique. Auparavant, seul la caisse Zelty pouvait le faire.
+                  Vos partenaires peuvent désormais envoyer directement
+                  n'importe quel produit d'une commande en production, offrant
+                  plus de flexibilité et d'efficacité.
                 </FeatureDescription>
               </SolutionListItem>
             </SolutionList>
@@ -166,18 +169,18 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  ❌ Nouvelle page permettant de faire la résiliation d’un
-                  restaurant depuis le BO
+                  ❌ Simplifiez la résiliation des restaurants avec le Back
+                  Office
                 </FeatureTitle>
                 <FeatureDescription>
-                  Il est maintenant possible de résilier un restaurant depuis
-                  l’espace Admin du Back Office. Ainsi le restaurant sera
-                  automatiquement supprimé (3 mois après la date de la dernière
-                  licence) et nous ne garderons aucune données.
+                  Une nouvelle fonctionnalité vous permet désormais de résilier
+                  un restaurant directement depuis l’espace Admin du Back
+                  Office. Après 3 mois, toutes les données sont automatiquement
+                  supprimées, garantissant la conformité et la sécurité des
+                  informations.
                 </FeatureDescription>
                 <FeatureImage src={img_mar_03}>
-                  Nouvelle page permettant de faire la résiliation d’un
-                  restaurant depuis le BO
+                  Simplifiez la résiliation des restaurants avec le Back Office
                 </FeatureImage>
               </SolutionListItem>
             </SolutionList>
@@ -194,10 +197,16 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  🛵 Intégration d’Uber Direct à Zelty Dispatch
+                  🛵 Accélérez vos livraisons avec l'intégration d'Uber Direct
                 </FeatureTitle>
+                <FeatureDescription>
+                  Nous avons ajouté Uber Direct à Zelty Dispatch, vous
+                  permettant de gérer vos livraisons encore plus efficacement et
+                  d'élargir vos options de transport pour une expérience client
+                  optimisée.
+                </FeatureDescription>
                 <FeatureImage src={img_apr_01}>
-                  Intégration d’Uber Direct à Zelty Dispatch
+                  Accélérez vos livraisons avec l'intégration d'Uber Direct
                 </FeatureImage>
               </SolutionListItem>
             </SolutionList>
@@ -214,17 +223,14 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  📞 Possibilité de créer une réservation depuis la liste des
-                  appels
+                  📞 Gagnez du temps avec la création rapide de réservations
                 </FeatureTitle>
                 <FeatureDescription>
-                  L’objectif de cette fonctionnalité est de permettre à un
-                  restaurateur de prendre une réservation rapidement depuis un
-                  appel téléphonique. Le client appelle, le restaurateur répond,
-                  ouvre la caisse, voit l’appel en cours et clique sur “Créer
-                  une réservation”. Les informations du clients sont déjà
-                  pré-remplies et il n’y a plus que la date, l’heure et le
-                  nombre de convives à renseigner.
+                  Lorsqu'un client vous appelle, ouvrez simplement la caisse,
+                  cliquez sur "Créer une réservation" et les informations du
+                  client sont déjà pré-remplies. Il ne vous reste plus qu’à
+                  renseigner la date, l’heure et le nombre de convives, pour une
+                  prise de réservation ultra-rapide et sans erreur.
                 </FeatureDescription>
               </SolutionListItem>
             </SolutionList>
@@ -234,16 +240,17 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  🧑🏻‍💻 Nouveaux filtres dans la liste des restaurants dans l’admin
+                  🧑🏻‍💻 Gérez facilement vos restaurants avec les nouveaux filtres
                 </FeatureTitle>
                 <FeatureDescription>
-                  Il est maintenant possible de lister les restaurants selon
-                  l’état de leurs abonnements. Utile lorsque l’on souhaite avoir
-                  des données sur le nombre de restaurants encore actifs ou en
-                  période de résiliation par exemple.
+                  Dans l'admin, vous pouvez désormais filtrer les restaurants
+                  par état d'abonnement. Cela vous permet d'obtenir rapidement
+                  des données sur les restaurants actifs, en résiliation, ou
+                  dans d'autres états, pour une gestion simplifiée et plus
+                  précise.
                 </FeatureDescription>
                 <FeatureImage src={img_may_01}>
-                  Nouveaux filtres dans la liste des restaurants dans l’admin
+                  Gérez facilement vos restaurants avec les nouveaux filtres
                 </FeatureImage>
               </SolutionListItem>
             </SolutionList>
@@ -260,11 +267,15 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  📝 Les clients sont maintenant autonomes sur leur export
-                  fiscal
+                  📝 Autonomie totale pour l'export fiscal fiscal
                 </FeatureTitle>
+                <FeatureDescription>
+                  Les restaurateurs peuvent désormais exporter leurs données
+                  fiscales de manière autonome, facilitant ainsi leur gestion
+                  administrative et assurant un suivi simplifié et conforme.
+                </FeatureDescription>
                 <FeatureImage src={img_jul_01}>
-                  Les clients sont maintenant autonomes sur leur export fiscal
+                  Autonomie totale pour l'export fiscal
                 </FeatureImage>
               </SolutionListItem>
             </SolutionList>
@@ -275,17 +286,18 @@ export default function Home() {
               <SolutionList>
                 <SolutionListItem>
                   <FeatureTitle>
-                    📥 Centre de notification sur la caisse
+                    📥 Facilitez la communication entre sièges et établissements
+                    avec le centre de notification
                   </FeatureTitle>
                   <FeatureDescription>
-                    Dans le cadre de la gestion multi-site des restaurants, nous
-                    offrons désormais la possibilité aux sièges de communiquer
-                    avec leurs établissements via la caisse. Ainsi, il est
-                    possible de diffuser un message sur une ou plusieurs caisses
-                    de l'enseigne.
+                    Les sièges peuvent désormais envoyer des messages
+                    directement via la caisse aux établissements, permettant une
+                    gestion centralisée et une communication fluide entre les
+                    différents sites d'une même enseigne.
                   </FeatureDescription>
                   <FeatureImage src={img_jul_02}>
-                    Centre de notification sur la caisse
+                    Facilitez la communication entre sièges et établissements
+                    avec le centre de notification
                   </FeatureImage>
                 </SolutionListItem>
               </SolutionList>
@@ -303,10 +315,18 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  💅🏻 Nouvelle interface de la commande en ligne
+                  💅🏻 Améliorez l'expérience client avec la nouvelle interface de
+                  commande en ligne
                 </FeatureTitle>
+                <FeatureDescription>
+                  Offrez à vos clients une interface modernisée et plus
+                  intuitive pour passer leurs commandes en ligne, avec une
+                  navigation simplifiée et un design plus attractif pour
+                  maximiser les conversions.
+                </FeatureDescription>
                 <FeatureImage src={img_sep_01}>
-                  Nouvelle interface de la commande en ligne
+                  Améliorez l'expérience client avec la nouvelle interface de
+                  commande en ligne
                 </FeatureImage>
               </SolutionListItem>
             </SolutionList>
@@ -323,17 +343,17 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  🍎 Pouvoir consolider automatiquement un menu
+                  🍎 Gagnez du temps avec la consolidation automatique des menus
                 </FeatureTitle>
                 <FeatureDescription>
-                  Il est maintenant possible d’ajouter un produit à une commande
-                  et de le faire automatiquement rentrer au sein d’un menu
-                  faisant parti de cette commande. Cela permet un gain de temps
-                  au restaurateur qui n’a pas besoin d’éditer un menu pour y
-                  ajouter un produit.
+                  Désormais, ajoutez un produit à une commande et il sera
+                  automatiquement intégré à un menu associé. Cela simplifie le
+                  processus pour le restaurateur, qui n'a plus besoin de
+                  modifier manuellement le menu pour y ajouter un produit,
+                  améliorant ainsi l'efficacité et la gestion des commandes.
                 </FeatureDescription>
                 <FeatureImage src={img_oct_01}>
-                  Pouvoir consolider automatiquement un menu
+                  Gagnez du temps avec la consolidation automatique des menus
                 </FeatureImage>
               </SolutionListItem>
             </SolutionList>
@@ -343,16 +363,16 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  🚛 Rupture produit automatique via un seuil
+                  🚛 Optimisez la gestion des stocks avec la rupture automatique
                 </FeatureTitle>
                 <FeatureDescription>
-                  Concrètement, vous pouvez désormais définir un seuil de stock
-                  pour chaque produit. Une fois ce seuil atteint, le produit
-                  sera automatiquement mis en rupture, sans aucune action
-                  manuelle de votre part.
+                  Définissez un seuil de stock pour chaque produit et, une fois
+                  atteint, le produit sera automatiquement mis en rupture, vous
+                  évitant ainsi toute action manuelle. Cela garantit une gestion
+                  simplifiée et gain de temps opérationnel.
                 </FeatureDescription>
                 <FeatureImage src={img_oct_02}>
-                  Rupture produit automatique via un seuil
+                  Optimisez la gestion des stocks avec la rupture automatique
                 </FeatureImage>
               </SolutionListItem>
             </SolutionList>
@@ -369,16 +389,19 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  🛵 Livraison sur la commande en ligne
+                  🛵 Proposez la livraison directement depuis la commande en
+                  ligne
                 </FeatureTitle>
                 <FeatureDescription>
-                  Un restaurant qui utilise notre commande en ligne peut
-                  maintenant vendre ses produits en livraison ! Il lui suffit
-                  juste d’avoir sa propre flotte de livreur ou d’utiliser une
-                  plateforme de livraison en marque blanche comme Uber Direct.
+                  Les restaurants utilisant notre commande en ligne peuvent
+                  désormais vendre leurs produits en livraison, que ce soit via
+                  leur propre flotte de livreurs ou en intégrant une plateforme
+                  de livraison en marque blanche comme Uber Direct. Une solution
+                  simple pour élargir leur portée et satisfaire encore plus de
+                  clients.
                 </FeatureDescription>
                 <FeatureImage src={img_nov_01}>
-                  Livraison sur la commande en ligne
+                  Proposez la livraison directement depuis la commande en ligne
                 </FeatureImage>
               </SolutionListItem>
             </SolutionList>
@@ -388,15 +411,17 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  🙆🏻‍♀️ Refonte du processus d’import de carte
+                  🙆🏻‍♀️ Simplification du processus d'import de carte
                 </FeatureTitle>
                 <FeatureDescription>
-                  Cet item de notre roadmap va accélérer la création de cartes
-                  sur le BO pendant l'onboarding, tant pour Zelty que pour les
-                  restaurateurs.
+                  La refonte du processus d'import de carte permet désormais une
+                  création plus rapide et fluide sur le Back Office, tant pour
+                  Zelty que pour les restaurateurs, accélérant ainsi
+                  l'onboarding et améliorant l'efficacité dès le début de la
+                  collaboration.
                 </FeatureDescription>
                 <FeatureImage src={img_nov_02}>
-                  Refonte du processus d’import de carte
+                  Simplification du processus d'import de carte
                 </FeatureImage>
               </SolutionListItem>
             </SolutionList>
@@ -412,42 +437,46 @@ export default function Home() {
             <SolutionTitle>Back Office</SolutionTitle>
             <SolutionList>
               <SolutionListItem>
-                <FeatureTitle>🗑️ Suppression groupée de clients</FeatureTitle>
+                <FeatureTitle>
+                  🗑️ Gagnez du temps avec la suppression groupée de clients
+                </FeatureTitle>
                 <FeatureDescription>
-                  L'intérêt de cette fonctionnalité est de pouvoir supprimer une
-                  grande quantité de clients en base en très peu de temps.
+                  Cette nouvelle fonctionnalité permet de supprimer rapidement
+                  et efficacement un grand nombre de clients en base,
+                  simplifiant ainsi la gestion des données et vous faisant
+                  gagner un temps précieux.
                 </FeatureDescription>
                 <FeatureImage src={img_dec_01}>
-                  Suppression groupée de clients
+                  Gagnez du temps avec la suppression groupée de clients
                 </FeatureImage>
               </SolutionListItem>
               <SolutionListItem>
                 <FeatureTitle>
-                  🖼️ Impression d’une image en haut et en bas du ticket de
-                  caisse
+                  🖼️ Personnalisez vos tickets de caisse avec une image
                 </FeatureTitle>
                 <FeatureDescription>
-                  Cette fonctionnalité permet d’imprimer en haut et/ou en bas
-                  des tickets de caisse une image. Très utile pour imprimer un
-                  QR code et pousser le client final à se rendre sur le site du
-                  restaurant pour y laisser un avis positif !
+                  Imprimez une image en haut et/ou en bas de vos tickets de
+                  caisse, idéale pour ajouter un QR code incitant vos clients à
+                  visiter votre site et laisser un avis positif. Une manière
+                  simple de fidéliser et d’encourager les retours clients !
                 </FeatureDescription>
                 <FeatureImage src={img_dec_02}>
-                  Impression d’une image en haut et en bas du ticket de caisse
+                  Personnalisez vos tickets de caisse avec une image
                 </FeatureImage>
               </SolutionListItem>
               <SolutionListItem>
                 <FeatureTitle>
-                  3️⃣ Comptabilisation automatique du nombre de couverts
+                  3️⃣ Simplifiez la comptabilisation des couverts
                 </FeatureTitle>
                 <FeatureDescription>
-                  Cette nouvelle fonctionnalité permet d'attribuer un nombre de
-                  couvert donné à un produit depuis le BO. Ainsi, dès qu'un
-                  produit est ajouté à un commande, le nombre de couvert associé
-                  est automatiquement comptabilisé sur la commande.
+                  Associez automatiquement un nombre de couverts à chaque
+                  produit depuis le Back Office. Dès qu'un produit est ajouté à
+                  une commande, le nombre de couverts est comptabilisé sans
+                  aucune action supplémentaire, facilitant ainsi la gestion des
+                  commandes et des besoins en cuisine.
                 </FeatureDescription>
                 <FeatureImage src={img_dec_03}>
-                  Comptabilisation automatique du nombre de couverts
+                  Simplifiez la comptabilisation des couverts
                 </FeatureImage>
               </SolutionListItem>
             </SolutionList>

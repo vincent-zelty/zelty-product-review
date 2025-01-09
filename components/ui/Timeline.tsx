@@ -30,11 +30,14 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div
-      className="w-full font-sans"
-      ref={containerRef}
-    >
-      <Image src={header} alt="Zelty Rewind 2024" width={0} priority className="mb-8 sm:mb-16" />
+    <div className="w-full font-sans" ref={containerRef}>
+      <Image
+        src={header}
+        alt="Zelty Rewind 2024"
+        width={0}
+        priority
+        className="mb-8 sm:mb-16"
+      />
       <div ref={ref} className="relative max-w-7xl mx-auto pr-8">
         {data.map((item, index) => (
           <div key={index} className="flex justify-start md:gap-10">
@@ -69,6 +72,27 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
           />
         </div>
+      </div>
+      <div className="mx-16 mb-16 px-8 sm:px-24 py-8 bg-[#092B49] rounded-xl flex flex-col gap-4">
+        <p className="text-lg font-bold">Merci à vous tous pour cette année incroyable ! ❤️</p>
+        <p>
+          Nous tenons à vous remercier pour votre confiance et votre soutien
+          tout au long de l'année. C'est grâce à vous que nous avons pu faire
+          évoluer, innover et développer des solutions toujours mieux adaptées à
+          vos besoins.
+        </p>
+        <p className="font-bold">2025, nous voilà ! 🚀</p>
+        <p>
+          Cette nouvelle année s'annonce encore plus passionnante, avec de
+          nombreuses innovations pour enrichir votre expérience. Nous sommes
+          impatients de poursuivre notre collaboration et de vous accompagner
+          dans tous vos projets.
+        </p>
+        <p>
+          Merci d'être partie prenante de notre aventure. Que 2025 vous apporte
+          succès et réussite !
+        </p>
+        <p>L’équipe Produit Zelty</p>
       </div>
     </div>
   );
