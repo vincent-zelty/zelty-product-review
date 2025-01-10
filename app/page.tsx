@@ -173,9 +173,9 @@ export default function Home() {
                   Office
                 </FeatureTitle>
                 <FeatureDescription>
-                  Une nouvelle fonctionnalité vous permet désormais de résilier
-                  un restaurant directement depuis l’espace Admin du Back
-                  Office. Après 3 mois, toutes les données sont automatiquement
+                  En gestion multisite, vous pouvez désormais résilier un
+                  restaurant directement depuis l’espace Admin du Back Office.
+                  Après 3 mois, toutes les données sont automatiquement
                   supprimées, garantissant la conformité et la sécurité des
                   informations.
                 </FeatureDescription>
@@ -231,6 +231,7 @@ export default function Home() {
                   client sont déjà pré-remplies. Il ne vous reste plus qu’à
                   renseigner la date, l’heure et le nombre de convives, pour une
                   prise de réservation ultra-rapide et sans erreur.
+                  Incontournable pour la restauration assise.
                 </FeatureDescription>
               </SolutionListItem>
             </SolutionList>
@@ -246,8 +247,8 @@ export default function Home() {
                   Dans l'admin, vous pouvez désormais filtrer les restaurants
                   par état d'abonnement. Cela vous permet d'obtenir rapidement
                   des données sur les restaurants actifs, en résiliation, ou
-                  dans d'autres états, pour une gestion simplifiée et plus
-                  précise.
+                  dans d'autres états, pour une gestion multisite simplifiée et
+                  plus précise.
                 </FeatureDescription>
                 <FeatureImage src={img_may_01}>
                   Gérez facilement vos restaurants avec les nouveaux filtres
@@ -291,9 +292,9 @@ export default function Home() {
                   </FeatureTitle>
                   <FeatureDescription>
                     Les sièges peuvent désormais envoyer des messages
-                    directement via la caisse aux établissements, permettant une
-                    gestion centralisée et une communication fluide entre les
-                    différents sites d'une même enseigne.
+                    directement via la caisse à leurs établissements. Cela
+                    permet d’avoir une communication fluide et centralisée. Au
+                    final, c’est un meilleur pilotage de votre enseigne.
                   </FeatureDescription>
                   <FeatureImage src={img_jul_02}>
                     Facilitez la communication entre sièges et établissements
@@ -414,11 +415,9 @@ export default function Home() {
                   🙆🏻‍♀️ Simplification du processus d'import de carte
                 </FeatureTitle>
                 <FeatureDescription>
-                  La refonte du processus d'import de carte permet désormais une
-                  création plus rapide et fluide sur le Back Office, tant pour
-                  Zelty que pour les restaurateurs, accélérant ainsi
-                  l'onboarding et améliorant l'efficacité dès le début de la
-                  collaboration.
+                  La refonte du processus d'import de carte permet désormais de
+                  les créer plus rapidement sur le Back Office, accélérant
+                  ainsi le lancement de votre activité.
                 </FeatureDescription>
                 <FeatureImage src={img_nov_02}>
                   Simplification du processus d'import de carte
@@ -473,7 +472,7 @@ export default function Home() {
                   produit depuis le Back Office. Dès qu'un produit est ajouté à
                   une commande, le nombre de couverts est comptabilisé sans
                   aucune action supplémentaire, facilitant ainsi la gestion des
-                  commandes et des besoins en cuisine.
+                  commandes et des besoins en cuisine en restauration assise.
                 </FeatureDescription>
                 <FeatureImage src={img_dec_03}>
                   Simplifiez la comptabilisation des couverts

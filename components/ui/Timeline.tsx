@@ -74,12 +74,14 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         </div>
       </div>
       <div className="mx-16 mb-16 px-8 sm:px-24 py-8 bg-[#092B49] rounded-xl flex flex-col gap-4">
-        <p className="text-lg font-bold">Merci à vous tous pour cette année incroyable ! ❤️</p>
+        <p className="text-lg font-bold">
+          Merci à vous tous pour cette année incroyable ! ❤️
+        </p>
         <p>
-          Nous tenons à vous remercier pour votre confiance et votre soutien
-          tout au long de l'année. C'est grâce à vous que nous avons pu faire
-          évoluer, innover et développer des solutions toujours mieux adaptées à
-          vos besoins.
+          Nous tenons à remercier les ambassadeurs Zelty, les restaurateurs et
+          les partenaires qui nous font confiance et nous soutiennent. C'est
+          grâce à eux que nous avons pu faire évoluer, innover et développer des
+          solutions toujours mieux adaptées à vos besoins.
         </p>
         <p className="font-bold">2025, nous voilà ! 🚀</p>
         <p>
