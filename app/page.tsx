@@ -268,7 +268,7 @@ export default function Home() {
             <SolutionList>
               <SolutionListItem>
                 <FeatureTitle>
-                  📝 Autonomie totale pour l'export fiscal fiscal
+                  📝 Autonomie totale pour l'export fiscal
                 </FeatureTitle>
                 <FeatureDescription>
                   Les restaurateurs peuvent désormais exporter leurs données
