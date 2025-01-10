@@ -13,10 +13,8 @@ import img_jan_02 from "./images/jan2.png";
 import img_feb_01 from "./images/feb1.png";
 import img_mar_01 from "./images/mar1.png";
 import img_mar_02 from "./images/mar2.png";
-import img_mar_03 from "./images/mar3.png";
 import img_mar_04 from "./images/mar4.png";
 import img_apr_01 from "./images/apr1.png";
-import img_may_01 from "./images/may1.png";
 import img_jul_01 from "./images/jul1.png";
 import img_jul_02 from "./images/jul2.png";
 import img_sep_01 from "./images/sep1.png";
@@ -164,27 +162,6 @@ export default function Home() {
               </SolutionListItem>
             </SolutionList>
           </Solution>
-          <Solution>
-            <SolutionTitle>Back Office</SolutionTitle>
-            <SolutionList>
-              <SolutionListItem>
-                <FeatureTitle>
-                  ❌ Simplifiez la résiliation des restaurants avec le Back
-                  Office
-                </FeatureTitle>
-                <FeatureDescription>
-                  En gestion multisite, vous pouvez désormais résilier un
-                  restaurant directement depuis l’espace Admin du Back Office.
-                  Après 3 mois, toutes les données sont automatiquement
-                  supprimées, garantissant la conformité et la sécurité des
-                  informations.
-                </FeatureDescription>
-                <FeatureImage src={img_mar_03}>
-                  Simplifiez la résiliation des restaurants avec le Back Office
-                </FeatureImage>
-              </SolutionListItem>
-            </SolutionList>
-          </Solution>
         </Month>
       ),
     },
@@ -233,26 +210,6 @@ export default function Home() {
                   prise de réservation ultra-rapide et sans erreur.
                   Incontournable pour la restauration assise.
                 </FeatureDescription>
-              </SolutionListItem>
-            </SolutionList>
-          </Solution>
-          <Solution>
-            <SolutionTitle>Back Office</SolutionTitle>
-            <SolutionList>
-              <SolutionListItem>
-                <FeatureTitle>
-                  🧑🏻‍💻 Gérez facilement vos restaurants avec les nouveaux filtres
-                </FeatureTitle>
-                <FeatureDescription>
-                  Dans l'admin, vous pouvez désormais filtrer les restaurants
-                  par état d'abonnement. Cela vous permet d'obtenir rapidement
-                  des données sur les restaurants actifs, en résiliation, ou
-                  dans d'autres états, pour une gestion multisite simplifiée et
-                  plus précise.
-                </FeatureDescription>
-                <FeatureImage src={img_may_01}>
-                  Gérez facilement vos restaurants avec les nouveaux filtres
-                </FeatureImage>
               </SolutionListItem>
             </SolutionList>
           </Solution>
